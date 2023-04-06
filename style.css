@@ -1,0 +1,78 @@
+/* body {
+   
+} */
+
+body {
+    background-image: url("images/about-me-bg.png");
+    background-size: cover;
+}
+
+.main-wrapper {
+    padding: 1.5rem;
+}
+
+.aboutMeImgs {
+    width: 650px;
+    height: 750px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+header {
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+header a:hover {
+    color: white;
+    border-radius: 10px;
+    background-color: black;
+    box-shadow: 10px 5px 5px #9c9c9c;
+    text-decoration: none;
+}
+
+div h1 {
+    padding: 1rem;
+    font-family: Georgia, serif;
+    font-weight: 700;
+    font-size: 3em;
+}
+
+div h2 {
+    font-family: Georgia, serif;
+    font-weight: 590;
+    font-size: 2.5em;
+}
+
+div h3 {
+    font-family: Georgia, serif;
+    font-weight: 550;
+    font-size: 2em;
+    text-decoration: underline;
+}
+
+div.content {
+    background-color: white;
+    padding: 2rem;
+    border: 5px solid black;
+    border-radius: 30px;
+}
+
+footer {
+    padding: 1rem;
+    background-color: white;
+    border: 5px solid white;
+    border-radius: 25px;
+}
+
+    /*  */
+    @keyframes visibility {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1.0;
+    }
+  }
