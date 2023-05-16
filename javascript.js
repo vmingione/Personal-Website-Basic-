@@ -1,1 +1,0 @@
-alert("Project Links are temporary disabled.");
