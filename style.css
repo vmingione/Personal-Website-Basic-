@@ -1,78 +1,115 @@
-/* body {
-   
-} */
+
+/* Header styles */
 
 body {
     background-image: url("images/about-me-bg.png");
     background-size: cover;
 }
 
-.main-wrapper {
-    padding: 1.5rem;
-}
-
-.aboutMeImgs {
-    width: 650px;
-    height: 750px;
-}
-
-a:link {
-    text-decoration: none;
-}
-
 header {
-    font-size: 1.5rem;
-    font-weight: bolder;
+    background-color: lightblue;
+    /* background-color: #b2c1db; */
 }
 
-header a:hover {
-    color: white;
-    border-radius: 10px;
-    background-color: black;
-    box-shadow: 10px 5px 5px #9c9c9c;
+.home-icon-bar .home {
+    font-family: Montserrat;
+    font-size: 2rem;
+    color: black;
+    text-decoration: none;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+
+.home img {
+    width: 65px;
+    height: 65px;
+    border-radius: 25px;
+    margin: 5px;
     text-decoration: none;
 }
 
-div h1 {
-    padding: 1rem;
-    font-family: Georgia, serif;
-    font-weight: 700;
-    font-size: 3em;
+
+.grid-container div {
+    display: flex;
 }
 
-div h2 {
-    font-family: Georgia, serif;
-    font-weight: 590;
-    font-size: 2.5em;
+.grid-container p {
+    padding: 20px;
 }
 
-div h3 {
-    font-family: Georgia, serif;
-    font-weight: 550;
-    font-size: 2em;
-    text-decoration: underline;
+.container {
+    padding-top: 30px;
 }
 
-div.content {
-    background-color: white;
-    padding: 2rem;
-    border: 5px solid black;
-    border-radius: 30px;
+.container h1 {
+    padding-right: 50px;
+    font-weight: 750;
 }
 
-footer {
-    padding: 1rem;
-    background-color: white;
-    border: 5px solid white;
-    border-radius: 25px;
+.home-bar {
+    justify-content: center;
 }
 
-    /*  */
-    @keyframes visibility {
-    from {
-        opacity: 0;
+/* .home-bar a { 
+    width: 8em;
+} */
+
+.icon-bar {
+    margin-bottom: 10px;
+}
+
+.icon-bar svg {
+    color: #355ee6;
+    /* color: #a0a5b0; */
+    margin-left: 20px;
+}
+
+.icon-bar svg:hover {
+    border-radius: 50%;
+    color: #a0a5b0; 
+    /* color: #355ee6; */
+}
+
+form div {
+    padding-bottom: 20px;
+}
+
+
+
+
+
+
+/* Media screen sizes */
+
+/* Desktop screens */
+
+/* Tablet screens */
+
+/* Mobile screens */
+@media only screen and (max-width: 390px) {
+    header {
+        background-color: lightblue;
     }
-    to {
-        opacity: 1.0;
+
+    .home-icon-bar ul li {
+        display: block;
     }
-  }
+
+    .home-bar .nav {
+        flex-direction: column; 
+        text-align: center;
+        margin-bottom: 5px;
+    }
+
+    .home-bar a { 
+        width: 8em;
+    }
+
+    .icon-bar {
+        margin-bottom: 10px;
+    }
+
+    /* .home-bar .nav .nav-item .active{
+        background-color: #bbbec4;
+    } */
+}
